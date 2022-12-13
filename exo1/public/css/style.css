@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-image: url(img\b g-header-mobile.png);
+  background-image: url(../img/bg-header-mobile.png);
   width: 100%;
   height: 650px;
 }
@@ -172,4 +172,7 @@ footer {
 footer .txtfoot h1 {
   color: #26baa6;
   font-size: 10vh;
+}
+footer .icon {
+  letter-spacing: 1vh;
 }
