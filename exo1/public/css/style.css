@@ -176,3 +176,35 @@ footer .txtfoot h1 {
 footer .icon {
   letter-spacing: 1vh;
 }
+
+@media screen and (max-width: 376px) {
+  header .titre1 {
+    display: flex;
+    flex-direction: column;
+  }
+  header .titre1 h1 {
+    font-size: 20vh;
+    margin: 0;
+    padding: 0;
+  }
+  header .titre1 h2 {
+    font-size: 28px;
+  }
+  header .titre1 p {
+    font-size: 18px;
+    margin: 2%;
+  }
+  header .btn {
+    display: flex;
+    flex-direction: column;
+  }
+  header .btn button {
+    margin-top: 10%;
+  }
+  header .btn button:nth-child(1) {
+    width: 300px;
+  }
+  header .btn button:nth-child(2) {
+    width: 300px;
+  }
+}
