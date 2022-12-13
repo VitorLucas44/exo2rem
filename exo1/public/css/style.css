@@ -110,4 +110,17 @@ section4 {
   text-align: center;
   justify-content: space-around;
   margin-top: 5%;
+  margin: 8%;
+}
+section4 .disign span {
+  color: #bac0c4;
+  line-height: 30px;
+}
+
+section5 .logo {
+  margin: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
 }
